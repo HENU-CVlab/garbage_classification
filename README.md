@@ -128,12 +128,19 @@ xxx/根目录
 > >plastic
 > >
 > >trash
+<h3>
+    运行项目之前
+</h3>
+
+在命令行中pip install -r requirements.txt
+
+以配置项目所需环境
 
 <h3>
     训练
 </h3>
 
-设置TRAIN_MODE 为True开始训练
+设置TRAIN_MODE 为True训练
 
 设置TO_SAVE 保存模型训练参数
 
@@ -145,6 +152,7 @@ xxx/根目录
 
 设置CHECKPOINT_DIR加载用于测试的模型参数
 
+配置完参数后只需运行main.py即可开始训练/测试
 <h3>
     检测
 </h3>
