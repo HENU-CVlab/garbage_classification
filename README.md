@@ -1,5 +1,5 @@
 # garbage_classification by pytorch
- Zsir_Henu人工智能导论实验作业，用ResNet50垃圾分类
+ Zsir_Henu人工智能导论实验作业，基于卷积神经网络ResNet50的垃圾分类
 
 ----
 
