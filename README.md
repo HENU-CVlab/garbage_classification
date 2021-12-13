@@ -14,6 +14,28 @@
 <p>
     数据集：Kaggle垃圾六分类数据集
 </p>
+<p>
+    ImageNet预训练权重可自行网上获取
+</p>
+
+<p>
+    若想使用由Zsir_Henu训练的权重，可以在百度网盘下载：
+</p>
+
+<p>
+    链接：https://pan.baidu.com/s/1-yYLeN8gX4NPu-tjCwOhbw
+</p>
+
+<p>
+    提取码：wzcl
+</p>
+
+
+
+
+
+
+
 
 
 
