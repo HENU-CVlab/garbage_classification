@@ -1,0 +1,17 @@
+D:\Anaconda3\envs\hinet\python.exe D:/Study/junior/人工智能/zcl_ai/garbage_classification/main.py
+Dataset ImageFolder
+    Number of datapoints: 2527
+    Root location: ./datasets/Garbage classification
+    StandardTransform
+Transform: Compose(
+               RandomResizedCrop(size=(224, 224), scale=(0.08, 1.0), ratio=(0.75, 1.3333), interpolation=bilinear)
+               RandomHorizontalFlip(p=0.5)
+               ColorJitter(brightness=[0.6, 1.4], contrast=[0.6, 1.4], saturation=[0.6, 1.4], hue=None)
+               ToTensor()
+               Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+           )
+D:\Anaconda3\envs\hinet\lib\site-packages\torch\nn\functional.py:718: UserWarning: Named tensors and all their associated APIs are an experimental feature and subject to change. Please do not use them for anything important until they are released as stable. (Triggered internally at  ..\c10/core/TensorImpl.h:1156.)
+  return torch.max_pool2d(input, kernel_size, stride, padding, dilation, ceil_mode)
+test acc 0.935
+
+Process finished with exit code 0
